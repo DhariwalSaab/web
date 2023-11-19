@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments Showcase - Chandigarh University</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #192a56; 
+            color: #fff; 
+        }
+
+        header {
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #fff; 
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        button {
+            padding: 15px 20px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-row1 button {
+            background-color: #3498db;
+        }
+
+        .button-row2 button {
+            background-color: #e74c3c;
+        }
+
+        button:hover {
+            background-color: #273c75; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Experiments Showcase - Chandigarh University</h1>
+    <p>Welcome to the Experiments Showcase hosted by Chandigarh University! Explore the innovative experiments conducted by our students and faculty.</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Aryan Thakur</p>
+    <p>This website is to show all the experiments.</p>
+</section>
+
+<section>
+    <h2>Experiments</h2>
+    <div class="button-container button-row1">
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/ugpg.html')">Experiment 1</button>
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/coluredtable.html')">Experiment 2</button>
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/img%20mapping.html')">Experiment 3</button>
+    </div>
+
+    <div class="button-container button-row2">
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/frame2.html')">Experiment 4</button>
+        <button onclick="openExperiment('experiment5.html')">Experiment 5</button>
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/hahahahhahahah.html')">Experiment 6</button>
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/dialog%20box%20cooki.html')">Experiment 7</button>
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/exp-8.html')">Experiment 8</button>
+        <button onclick="openExperiment('file:///C:/Users/Aryan/OneDrive/Documents/exp-9.html')">Experiment 9</button>
+    </div>
+</section>
+
+<script>
+    function openExperiment(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html>
